@@ -1,0 +1,571 @@
+body {
+  margin: 0;
+  background-color: #f7f7f7;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* index.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Navber starts */
+.navber_containner{
+  padding:10px;
+  height:70px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.navber_containner_title{
+  width:190px
+}
+.navber_containner_title ul {
+  list-style-type: none;
+}
+.navber_containner_title ul li {
+  display:flex
+}
+.navber_containner_title ul li i{
+  margin-top: 10px;
+ 
+  font-size: 26px;
+  color:rgb(253, 178, 37)
+}
+.navber_containner_title ul li h1{
+  
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.navber_containner_hero  {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+.navber_containner_hero ul {
+  list-style-type: none;
+  margin-left: 12px; 
+}
+
+.active_btn{
+  height:50px;
+  border:none;
+  border-radius: 5px;
+  background-color: rgb(253, 178, 37);
+  
+}
+.btn{
+  background-color: #fff;
+  height:50px;
+  border:none;
+  border-radius: 5px;
+  
+}
+.btn:hover  {
+  background-color: #f3f3f3;
+  height:50px;
+  border:none;
+  border-radius: 5px;
+  
+}
+.navber_containner_hero ul li i {
+  font-size: 12px;
+  padding: 5px;
+  color:gray
+ 
+
+}
+
+.navber_containner_hero ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+  color: #111;
+  margin-right: 20px;
+  color: gray;
+ 
+
+}
+/* Navber ends */
+
+/* Home starts */
+
+
+.services_tracker h1{
+  margin-left: 10px;
+  margin-top: 60px;
+}
+
+.services_tracker_products{
+ margin-left: 10px;
+}
+.services_tracker_products_table{
+ border-collapse: collapse;
+ background-color: #f7f7f7;
+ border-radius: 6px;
+}
+
+ 
+.services_tracker_products_table thead tr th{
+  color:gray;
+  padding:10px;
+ 
+}
+
+ 
+ .services_tracker_products_table tbody tr {
+  border-bottom: 1px solid #e5e7eb;
+  box-sizing: border-box;
+  background-color: #fff;
+  
+ }
+ .services_tracker_products_table tbody tr:hover {
+  box-sizing: border-box;
+  background-color: rgb(143, 143, 60);
+  cursor:pointer;
+  
+ }
+ 
+.services_tracker_products_table tbody tr td{
+ font-size: 14px;
+ background-color: #fff;
+ padding:25px;
+ 
+}
+.services_tracker_products_table tbody tr td span{
+  font-size: 10px;
+  color:gray
+  
+ }
+.services_tracker_products_table tbody tr td i{
+  font-size: 12px;
+  color:gray;
+  margin-top: 2px;
+  padding:4px;
+}
+.services_tracker_products-div{
+  display:flex;
+ 
+}
+.active_button{
+border: none;
+border-radius: 50px;
+width:60px;
+height:25px;
+font-size: 12px;
+color: rgb(14, 121, 209);
+background-color: rgb(59 130 246 / 50%);
+text-align: left;
+margin-right: 6px;
+
+}
+
+.complate_btn button{
+  height:50px;
+  width:100px;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  color:#fff;
+  background-color: rgb(34, 165, 56);
+}
+.complate_btn button:hover{
+  background-color: rgb(29, 148, 49);
+  cursor: pointer;
+}
+/* Home ends */
+/* book-service here */
+.book-service h1{
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 25px;
+  padding:20px
+}
+.book_service_contain{
+  width:950px;
+  background-color:#fff;
+  margin-left: 30px; 
+  padding-bottom: 20px;
+}
+.book_service_contain button{
+  color:#fff;
+  width:830px;
+  height:35px;
+  margin-left: 60px;
+  border:none;
+  background-color: rgb(37 99 235);
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor:pointer;
+
+}
+.book_service_contain button:hover{
+  background-color: rgb(17, 80, 216);
+}
+.book_service_containner{
+  display:flex;
+  width:900px;
+  background-color:#fff;
+  margin-left: 50px;
+  
+}
+.book_service_form{
+ padding:10px;
+}
+.book_service_form_contain{
+  padding:2px;
+
+}
+.book_service_form_contain i,span{
+ font-size:12px; 
+ color:gray;
+ padding:2px;
+ margin-top: 40px;
+}
+.book_service_form_contain input{
+  width:400px;
+  border:none;
+  border-bottom:1px solid gray;
+  
+}
+.book_service_form_contain select{
+  color:red;
+  width:400px;
+  color:#111;
+  border:none;
+  border-bottom:1px solid gray;
+}
+
+/* book-service ends*/
+
+/* customer here */
+
+.customer{
+  width:90%;
+  background-color: #fff;
+  margin-left: 45px;
+  margin-top: 20px;
+ 
+}
+.customer_filder_serch_btn {
+  font-size: 14px;
+  padding:20px
+}
+
+.customer_filder_serch_btn input{
+  width:600px;
+  border:none;
+  padding:10px;
+}
+.customer_calender_filder{
+  display:flex
+}
+.customer_calender_filder_date{
+  padding:20px
+}
+
+.customer_calender_filder_date i{
+  font-size: 14px;;
+}
+.customer_calender_filder_date input{
+  border:none;
+  padding:10px
+}
+.customer_containner h1{
+ font-size: 25px;
+ margin-left: 50px;
+ margin-top: 40px;
+ 
+}
+.customer_calender_filder_date button{
+  border:none;
+  padding:10px;
+  background-color: rgb(82, 128, 228);
+  color:#fff;
+  cursor:pointer
+}
+.customer_form{
+ margin-left: 50px;
+}
+
+.customer_form_contain input,textarea{
+  width:600px;
+  border: none;
+  height:40px
+
+}
+.customer_btn button{
+  width:600px;
+  height:40px;
+  background-color:rgb(82, 128, 228);
+  color:#fff;
+  border:none;
+  cursor:pointer;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+.customer_btn button:hover{
+  background-color: #4c78d8;
+}
+
+.customer_list_contanner{
+  width:90%;
+  background-color: #fff;
+  margin-left: 45px;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding:20px;
+}
+.customer_list_contanner p,i{
+  padding:10px;
+  font-size:15px
+}
+/* add service */
+.service_list_contain{
+  display:flex
+}
+.service_list_contain h3{
+  font-size: 15px;
+  color:#111;
+  margin-left: 20px;
+}
+.service_list_contain p,i{
+  font-size: 22px;
+  color:gray
+}
+.service_list_price{
+
+margin-left: 900px;
+}
+.service_list_price button{
+  width:100px;
+  border:none;
+  background-color: rgb(240, 240, 165);
+  height:40px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  cursor:pointer
+}
+.service_list_price strong{
+  color:#111;
+  padding:10px
+}
+/*managemenr*/
+
+.managemant h1{
+  margin-top:20px;
+  padding:10px;
+  margin-left: 390px;
+
+}
+.management-btn {
+  margin-left: 390px;
+}
+.management-btn button{
+  padding:10px;
+  background-color: #4c78d8;
+  color:#fff;
+  margin-left: 10px;
+  cursor:pointer;
+  border:none;
+  border-radius: 6px;
+
+}
+.management_form{
+ /* height:400px;*/
+  width:800px;
+  background-color:#fff;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 400px;
+  padding-bottom: 30px;
+}
+.management_form h2{
+  padding:20px
+}
+.management_form input{
+  height:30px;
+  width:700px;
+  padding:10px;
+  border:none;
+  margin-left: 20px;
+  background-color: #f7f7f7;
+  }
+
+  .management_form select{
+    height:40px;
+    width:700px;
+    padding:10px;
+    border:none;
+    margin-left: 20px;
+    background-color: #f7f7f7;
+    }
+  
+.management_form span{
+  height:30px;
+  width:700px;
+  padding:10px;
+  border:none;
+  margin-left: 20px;
+ 
+}
+.management_form button{
+ width:700px;
+ height:30px;
+ border:none;
+ margin-top:40px;
+ color:#fff;
+ margin-left: 20px;
+ background-color: #4c78d8;
+ cursor:pointer;
+ border-radius: 4px;
+}
+
+
+#Bike_Model{
+  display:none
+}
+#Service_Type{
+  display:none
+}
+#Service_Bay{
+  display:none
+}
+/*management end*/
+
+/* report starts*/
+.reports_containner{
+  display:flex;
+  margin-top: 30px;
+  margin-left: 200px;
+
+}
+.reports_containner h1{
+  font-size: 30px;
+}
+/*.reports_multiple_containner{
+  display: flex;
+  justify-content: space-between;
+  
+}*/
+.reports_btn{
+background-color: #fff;
+padding:6px;
+border-radius: 6px;
+}
+.reports_btn button{
+  padding: 5px;
+  width:60px;
+  margin-left: 5px;
+  border:none;
+  background-color: #4c78d8;
+  color:#fff;
+  border-radius: 6px;
+  cursor:pointer;
+}
+.reports_contain{
+  width:400px;
+  height:110px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 20px ;
+  margin-left: 10px;
+
+}
+.reports_date{
+ margin-left: 630px;
+
+}
+.reports_date i{
+  color:#111;
+  padding:10px;
+  cursor: pointer;
+}
+.reports_date strong{
+  color:gray;
+  font-size:13px;
+}
+
+.reports_multiple_containner{
+  display: flex;
+  margin-left: 190px;
+}
+.reports_contain h1{
+  padding:10px;
+
+}
+.reports_contain h2{
+font-size: 18px;
+}
+.reports_contain_service{
+  padding:10px;
+  display: flex;
+}
+.reports_contain_service i{
+  margin-left: 200px;
+  color:#4c78d8;
+  font-size: 14px;
+}
+.reports_service_section{
+  width:600px;
+  background-color: #fff;
+  border-radius:5px;
+  margin-top: 20px;
+  padding:10px;
+  margin-left: 15px;
+}
+.reports_service_section h4{
+  font-size: 14px;
+  color:#111;
+  
+}
+.reports_service_section_details{
+  display:flex;
+  margin-top: 20px;
+}
+.reports_service_section_details_service_price strong{
+  margin-left: 460px;
+}
+.reports_service_section_containner{
+  display: flex;
+  margin-left: 190px;
+
+}
+.reports_service_section_technician_performance{
+ margin-left: 360px;
+}
+
+
+progress{
+  width:100px;
+  height:10px;
+  -webkit-appearance: none;
+  appearance: none;
+  margin-left: 10px;
+  margin-bottom: 4px;
+
+}
+progress::-webkit-progress-bar{
+  background-color: #e4e1e1;
+  border-radius: 50px;
+}
+progress::-webkit-progress-value{
+  background-color: green;
+  border-radius: 10px;
+}
+progress::-moz-progress-value{
+  background-color: green;
+  border-radius: 10px;
+}
